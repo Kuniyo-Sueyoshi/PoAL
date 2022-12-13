@@ -2,27 +2,26 @@
 ```R
 R> sessionInfo()
 
-```
-R version 3.6.3 (2020-02-29)
-Platform: x86_64-apple-darwin15.6.0 (64-bit)
+R version 3.6.3 (2020-02-29).
+Platform: x86_64-apple-darwin15.6.0 (64-bit).
 Running under: OS X  12.2.1
 
-#### Matrix products: default
+### Matrix products: default
 LAPACK: /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRlapack.dylib
 
-#### locale:
+### locale:
 ja_JP.UTF-8/ja_JP.UTF-8/ja_JP.UTF-8/C/ja_JP.UTF-8/ja_JP.UTF-8
 
-#### attached base packages:
+### attached base packages:
 stats; graphics; grDevices; utils; datasets; methods; base     
 
-#### other attached packages:
+### other attached packages:
 ggsignif_0.6.4;    cowplot_1.1.1;     ggalluvial_0.12.3; pROC_1.18.0;       MASS_7.3-58.1;    
 forcats_0.5.2;     stringr_1.4.1;     dplyr_1.0.10;      purrr_0.3.5;       readr_2.1.3;      
 tidyr_1.2.1;       tibble_3.1.8;      ggplot2_3.4.0;     tidyverse_1.3.2;   flextable_0.8.3;  
 gtsummary_1.6.2  
 
-#### loaded via a namespace (and not attached):
+### loaded via a namespace (and not attached):
 httr_1.4.4;          bit64_4.0.5;         vroom_1.6.0;         jsonlite_1.8.3;
 modelr_0.1.10;       assertthat_0.2.1;    googlesheets4_1.0.1; cellranger_1.1.0;   
 gdtools_0.2.3;       pillar_1.8.1;        backports_1.4.1;     glue_1.6.2;         
@@ -41,3 +40,4 @@ gtable_0.3.1;        DBI_1.1.3;           R6_2.5.1;            lubridate_1.9.0;
 knitr_1.41;          bit_4.0.5;           fastmap_1.1.0;       utf8_1.2.2;         
 stringi_1.7.8;       parallel_3.6.3;      Rcpp_1.0.9;          vctrs_0.5.1;        
 dbplyr_2.2.1;        tidyselect_1.2.0;    xfun_0.35;
+```

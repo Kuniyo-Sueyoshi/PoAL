@@ -1,12 +1,9 @@
-setwd("~/Documents/zeropita/git.v1/") # Directory to run analysis
+setwd("./") # Please set directory to run analysis
 source("./scr/Load.Libraries.R")
 
 # Load data
-Leak.cutoff <- 0 # Threshhold for PoAL [ml/min]
-file <- "./data/data.v1.csv"
-source("./scr/Read.Data.R")
-d2 <- read.Data(file = file, Leak.cutoff = Leak.cutoff)
-
+file <- "./data/data.mock.csv"
+d2 <- read_csv(file = file)
 OutDir <- "results/" # Directory to save outputs
 
 ### A bit reshape of data

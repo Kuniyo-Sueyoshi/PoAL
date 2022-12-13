@@ -1,21 +1,19 @@
 # PoAL (postoperative air leak) analysis
-The current repository includes codes used in the study entitled "Postoperative air leak prediction for early-drain removal: a retrospective study".
+The current repository includes codes used in the study entitled "Zero-leak prediction during major lung resection aiming for minimal chest drainage duration"
 
 # Contents
 ## scripts/
 Main analyses and scripts
-- Main.R
-  Main alalysis to determine PoAL-associated factors. (Related to Table 1, Table 2, Table 3)
-- LeakConvert.R
-  Calculate and illustrate the air leak cessation rate and leak commencement rate. (Related to Figure 1)
-- ModelPrediction.R
+- Main.R (Related to Table 1, Table 2, Table 3)
+- LeakConvert.R (Related to Figure 1)
+- ModelPrediction.R (Related to Figure 2)
      
-## data
-Expression data, external data, etc. to execute analyses
-- TCGA/
-
 ## scr/
-Supplementary tables provided in the study, Input/Output tables in the analyses
-- 
+Functions and packages required for running analyses in ./scripts/
+
+
+## data/
+Repository of data to be analysed.
 
 ## results/
+Repository of result tables and figures produced in analyses of ./scripts/
